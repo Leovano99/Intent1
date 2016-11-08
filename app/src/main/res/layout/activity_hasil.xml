@@ -9,14 +9,13 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="id.sch.smktelkom_mlg.xirpl3_20.intent1.HasilActivity">
 
-    <Button
-        android:layout_width="wrap_content"
+    <TextView
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Kembali"
-        android:id="@+id/buttonBack"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginRight="116dp"
-        android:layout_marginEnd="116dp" />
+        android:id="@+id/textViewHasil"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:gravity="center"/>
+
+
+
 </RelativeLayout>
